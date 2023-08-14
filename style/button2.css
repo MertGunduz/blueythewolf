@@ -26,7 +26,6 @@ body {
 }
 
 .glowing-btn {
-  position: absolute;
   color: var(--glow-color);
   cursor: pointer;
   padding: 0.35em 1em;
@@ -38,7 +37,6 @@ body {
   font-size: 2em;
   font-weight: 900;
   letter-spacing: 1em;
-  bottom: 30px;
 
   -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
     0px 0px 0.5em 0px var(--glow-color);

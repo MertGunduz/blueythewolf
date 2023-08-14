@@ -40,7 +40,7 @@
     animation: border-flicker 2s linear infinite;
     width: 44vw;
     height: 44vh;
-    background-image: url(../bluey-gun.png);
+    background-image: url(../images/bluey-gun.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -58,6 +58,32 @@
     z-index: -1;
 }
   
+.bluey-border-2 {
+    position: relative;
+    color: var(--glow-color);
+    padding: 0.35em 1em;
+    border: 0.15em solid var(--glow-color);
+    background: none;
+    perspective: 2em;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+      0px 0px 0.5em 0px var(--glow-color);
+    -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+      0px 0px 0.5em 0px var(--glow-color);
+    box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+      0px 0px 0.5em 0px var(--glow-color);
+    animation: border-flicker 2s linear infinite;
+    width: 44vw;
+    height: 44vh;
+    background-image: url(../images/bluey-gun.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.45em;
+    padding: 20px;
+}
+
 body {
     background: #0B1319;
     display: flex;
