@@ -1,0 +1,196 @@
+* {
+    margin: 0px; padding: 0px; box-sizing: border-box; outline: none; font-family: "Raleway", sans-serif !important;
+}
+
+.fade-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0; /* Initial full opacity */
+    transition: 5s ease; /* Transition for opacity */
+}  
+
+.content {
+    /* Style your content here */
+    color: #fff;
+}
+
+.bluey-border {
+    position: relative;
+    color: var(--glow-color);
+    padding: 0.35em 1em;
+    border: 0.15em solid var(--glow-color);
+    background: none;
+    perspective: 2em;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    letter-spacing: 1em;  
+    -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+      0px 0px 0.5em 0px var(--glow-color);
+    -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+      0px 0px 0.5em 0px var(--glow-color);
+    box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+      0px 0px 0.5em 0px var(--glow-color);
+    animation: border-flicker 2s linear infinite;
+    width: 44vw;
+    height: 44vh;
+    background-image: url(../bluey-gun.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.45em;
+}
+
+.bluey-border::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value (0.5) to control darkness */
+    z-index: -1;
+}
+  
+body {
+    background: #0B1319;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* RANDOM TEXTS */
+#fltext-1 {
+    position: relative;
+    top: -30%;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+#fltext-2 {
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    transform: rotateZ(30deg);
+}
+
+#fltext-3 {
+    position: absolute;
+    bottom: 6%;
+    transform: rotateZ(-15deg);
+}
+
+#fltext-4 {
+    position: absolute;
+    top: 20%;
+    right: 4%;
+    transform: rotateZ(-42deg);
+}
+
+#fltext-5 {
+    position: absolute;
+    bottom: 20%;
+    left: 3%;
+    transform: rotateZ(30deg);
+}
+
+#fltext-6 {
+    position: absolute;
+    bottom: 20%;
+    right: 3%;
+    transform: rotateZ(-40deg);
+}
+
+#fltext-7 {
+    position: absolute;
+    top: 5%;
+    transform: rotateZ(-10deg);
+}
+/* RANDOM TEXTS */
+
+/* NEON TEXT */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+  background-color: black;
+}
+
+.container {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.neon {
+  font-family: neon;
+  color: #FB4264;
+  font-size: 9vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #F40A35;
+}
+
+.flux {
+  font-family: neon;
+  color: var(--glow-color);
+  font-size: 4.25rem;
+  line-height: 9vw;
+  color: var(--glow-color);
+}
+
+.neon {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+.flux {
+  animation: flux 1.5s linear infinite;
+  -moz-animation: flux 1.5s linear infinite;
+  -webkit-animation: flux 1.5s linear infinite;
+  -o-animation: flux 1.5s linear infinite;
+}
+
+@keyframes flux {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #439da7, 0 0 3vw #197580, 0 0 10vw #15565e, 0 0 10vw #2a808a, 0 0 .4vw #61efff .5vw .5vw .1vw #147280;
+    color: #61efff;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #0d4349, 0 0 1.5vw #195258, 0 0 5vw #285b61, 0 0 5vw #23595f, 0 0 .2vw #216168, .5vw .5vw .1vw #032e33;
+    color: #3f929b;
+  }
+}
+/* NEON TEXT */
+
+@keyframes fadeOut {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
