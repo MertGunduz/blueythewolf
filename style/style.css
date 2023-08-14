@@ -92,6 +92,18 @@ body {
     min-height: 100vh;
 }
 
+#story1 {
+    background-image: url(../images/young-bluey.png);
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#story2 {
+    background-image: url(../images/young-bluey-soldier.jpg);
+    background-position-x: center;
+    background-position-y: top;
+}
+
 /* RANDOM TEXTS */
 #fltext-1 {
     position: relative;
@@ -219,4 +231,4 @@ body {
     100% {
       opacity: 1;
     }
-  }
+}
