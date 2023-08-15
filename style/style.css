@@ -128,6 +128,7 @@ body {
     top: -30%;
     font-size: 5rem;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 #fltext-2 {
@@ -200,7 +201,7 @@ body {
   font-family: neon;
   color: var(--glow-color);
   font-size: 4.25rem;
-  line-height: 9vw;
+  line-height: 16vw;
   color: var(--glow-color);
 }
 
@@ -251,5 +252,181 @@ body {
     }
 }
 
-/**/
-/**/
+/* MAX WIDTH */
+@media screen and (max-width: 1830px) {
+    #fltext-1 {
+      font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 1770px) {
+  #fltext-2 {
+    font-size: 3rem;
+  }
+
+  #fltext-3 {
+    font-size: 3rem;
+  }
+  
+  #fltext-4 {
+    font-size: 3rem;
+  }
+
+  #fltext-5 {
+    font-size: 3rem;
+  }
+
+  #fltext-6 {
+    font-size: 3rem;
+  }
+
+  #fltext-7 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1580px) {
+  #fltext-1 {
+    font-size: 3.25rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #fltext-1 {
+    font-size: 2.75rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #fltext-1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  #fltext-2 {
+    font-size: 2.5rem;
+  }
+
+  #fltext-3 {
+    font-size: 2.5rem;
+  }
+  
+  #fltext-4 {
+    font-size: 2.5rem;
+  }
+
+  #fltext-5 {
+    font-size: 2.5rem;
+  }
+
+  #fltext-6 {
+    font-size: 2.5rem;
+  }
+
+  #fltext-7 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .bluey-border {
+    width: 96%;
+    height: 96%;
+    background-position-y: top;
+    background-position-x: right;
+  }
+
+  .bluey-border-2 {
+    width: 95%;
+    height: 95%;
+    background-position-y: top;
+    background-position-x: right;
+  }
+
+  .bluey-border-2 p {
+    font-size: 1.25rem;
+  }
+
+  .fade-container img {
+    margin-top: 20px;
+  }
+
+  .glowing-btn {
+    margin-bottom: 20px;
+  }
+
+  #fltext-1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  #fltext-2 {
+    display: none;
+  }
+
+  #fltext-3 {
+    display: none;
+  }
+  
+  #fltext-4 {
+    display: none;
+  }
+
+  #fltext-5 {
+    display: none;
+  }
+
+  #fltext-6 {
+    display: none;
+  }
+
+  #fltext-7 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .bluey-border-2 p {
+    font-size: 1.15rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .bluey-border-2 p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .bluey-border-2 p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .bluey-border-2 p {
+    font-size: 0.86rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .fade-container img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .fade-container img {
+    margin-top: 10px;
+  }
+}
+/* MAX WIDTH */
+
+/* MAX HEIGHT */
+@media screen and (max-height: 870px) {
+  .fade-container img {
+    display: none;
+  }
+}
+/* MAX HEIGHT */
