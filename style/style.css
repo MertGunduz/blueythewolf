@@ -104,6 +104,12 @@ body {
     background-position-y: top;
 }
 
+#story3 {
+  background-image: url(../images/bluey-soldier-big.jpg);
+  background-position-x: center;
+  background-position-y: top;
+}
+
 /* RANDOM TEXTS */
 #fltext-1 {
     position: relative;
