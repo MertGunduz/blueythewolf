@@ -110,6 +110,18 @@ body {
   background-position-y: top;
 }
 
+#story4 {
+  background-image: url(../images/bluey.png);
+  background-position-x: center;
+  background-position-y: center;
+}
+
+#story5 {
+  background-image: url(../images/bluey-mom.png);
+  background-position-x: center;
+  background-position-y: top;
+}
+
 /* RANDOM TEXTS */
 #fltext-1 {
     position: relative;
@@ -238,3 +250,6 @@ body {
       opacity: 1;
     }
 }
+
+/**/
+/**/
